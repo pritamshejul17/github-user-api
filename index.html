@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github - API</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class = "flex justify-center p-8 border-b-2 border-blacks">
+        <li class = 'list-none mr-6 sm:mr-12'>
+            <img  class="w-12 h-12" src = "https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">
+        </li>
+        <li class = 'list-none rounded-md'>
+            <input id="searchInput" class="h-full bg-stone-200 py-4 sm:px-6 rounded-md"  type = 'text' placeholder = 'Search for user'>
+        </li>
+        <li class = 'list-none ml-4 sm:ml-10  rounded-md'>
+            <button class="h-full px-6 text-white bg-stone-800 rounded-md" type="submit">Search</button>
+        </li>
+    </div>
+    <div id="user-info">
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
